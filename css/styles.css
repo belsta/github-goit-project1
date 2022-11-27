@@ -1,0 +1,55 @@
+:root {
+    --color-text: #212121;
+    --color-link: #2196F3;
+    --color-white: #fff;
+}
+
+body {
+    background-color: var(--color-white);
+    color: #757575;
+}
+
+.header-link {
+    color: var(--color-text);
+}
+
+.header-link:hover {
+    color: var(--color-link);
+    cursor: pointer;
+}
+
+.header-link:active {
+    color: var(--color-link);
+}
+
+.hero-section {
+    background-color:#2F303A;
+    width: 1600px;
+    height: 600px
+}
+
+.hero-title {
+    text-align: center;
+    color: var(--color-white);
+}
+
+.hero-button {
+    background-color: var(--color-link);
+    color: var(--color-white);
+    border-radius: 4px;
+}
+
+.hero-button:hover {
+    background-color: var(--color-white);
+    color: var(--color-link);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.content-header {
+    color: var(--color-text);
+}
+
+.team {
+    background-color: #F5F4FA;
+}

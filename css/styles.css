@@ -1,6 +1,7 @@
 :root {
     --color-text: #212121;
     --color-link: #2196F3;
+    --color-grey: #757575;
     --color-white: #fff;
     --color-pf-btn-bg: #F5F4FA;
 }
@@ -13,6 +14,36 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+
+/* DEFAULT STYLES RESET */
+
+/* Класс для обнуления базовых свойств у списков (ul) */
+.list {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+} 
+
+/* Класс для обнуления базовых свойств у ссылок */
+.link {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/* Свойства для корректного отображения картинок */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Свойства для обнуления курсива у address */
+address {
+    font-style: normal;
+}
+
+
 .logo-web {
     color: var(--color-link);
     font-family: 'Raleway', sans-serif;
@@ -20,6 +51,7 @@ body {
     font-size: 26px;
     line-height: 1.19;
     text-decoration: none;
+    letter-spacing: 0.03em;
 }
 
 .logo-h-studio {
@@ -29,6 +61,7 @@ body {
     font-size: 26px;
     line-height: 1.19;
     text-decoration: none;
+    letter-spacing: 0.03em;
 }
 
 .logo-f-studio {
@@ -38,6 +71,7 @@ body {
     font-size: 26px;
     line-height: 1.19;
     text-decoration: none;
+    letter-spacing: 0.03em;
 }
 
 .header-link {
@@ -46,6 +80,7 @@ body {
     font-size: 14px;
     font-weight: 500;
     line-height: 1.142;
+    letter-spacing: 0.02em;
 }
 
 .header-link:hover {
@@ -54,6 +89,24 @@ body {
 }
 
 .header-link.current {
+    color: var(--color-link);
+}
+
+.header-contact {
+    color: var(--color-grey);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.142;
+    letter-spacing: 0.02em;
+}
+
+.header-contact:hover {
+    color: var(--color-link);
+    cursor: pointer;
+}
+
+.header-contact.current {
     color: var(--color-link);
 }
 
@@ -69,7 +122,8 @@ body {
     text-align: center;
     font-size: 44px;
     font-weight: 900;
-    line-height: 1.65;
+    line-height: 1.363;
+    letter-spacing: 0.06em;
 }
 
 .hero-button {
@@ -93,33 +147,31 @@ body {
 .content-header-features {
     color: var(--color-text);
     font-size: 14px;
-    font-weight: 700;
     line-height: 1.142;
-    text-align: left;
+    letter-spacing: 0.03em;
 }
 
 .content-features {
-    color: #757575;
+    color: var(--color-grey);
     font-size: 14px;
-    font-weight: 400;
     line-height: 1.714;
-    text-align: left;
+    letter-spacing: 0.03em;
 }
 
 .content-header-services {
     color: var(--color-text);
     font-size: 36px;
-    font-weight: 700;
     line-height: 1.167;
     text-align: center;
+    letter-spacing: 0.03em;
 }
 
 .content-header-team {
     color: var(--color-text);
     font-size: 36px;
-    font-weight: 700;
     line-height: 1.167;
     text-align: center;
+    letter-spacing: 0.03em;
 }
 
 .team {
@@ -132,14 +184,15 @@ body {
     font-weight: 600;
     line-height: 1.188;
     text-align: center;
+    letter-spacing: 0.03em;
 }
 
 .content-team-position {
-    color: #757575;
+    color: var(--color-grey);
     font-size: 16px;
-    font-weight: 400;
     line-height: 1.188;
     text-align: center;
+    letter-spacing: 0.03em;
 }
 
 .footer {
@@ -155,19 +208,29 @@ a {
 .foot-address {
     font-family: inherit;
     font-size: 14px;
-    font-weight: 400;
     line-height: 1.714;
     color: var(--color-white);
     text-decoration: none;
+    letter-spacing: 0.03em;
+}
+
+.foot-address:hover {
+    color: var(--color-link);
+    cursor: pointer;
 }
 
 .foot-address-transp {
     font-family: inherit;
     font-size: 14px;
-    font-weight: 400;
     line-height: 1.714;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
+    letter-spacing: 0.03em;
+}
+
+.foot-address-transp:hover {
+    color: var(--color-link);
+    cursor: pointer;
 }
 
 
@@ -186,20 +249,21 @@ a {
 .portfolio-button:hover {
     background-color: var(--color-link);
     color: var(--color-white);
+    cursor: pointer;
 }
 
 .pf-header {
     color: var(--color-text);
     font-size: 18px;
-    font-weight: 700;
     line-height: 2;
     text-align: center;
+    letter-spacing: 0.06em;
 }
 
 .pf-type {
-    color: #757575;
+    color: var(--color-grey);
     font-size: 18px;
-    font-weight: 400;
     line-height: 1.667;
     text-align: center;
+    letter-spacing: 0.03em;
 }

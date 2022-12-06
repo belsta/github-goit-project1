@@ -181,7 +181,7 @@ address {
 .content-team-name {
     color: var(--color-text);
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 1.188;
     text-align: center;
     letter-spacing: 0.03em;

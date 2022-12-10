@@ -43,6 +43,29 @@ address {
     font-style: normal;
 }
 
+/* Common styles */
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+margin: 0;
+}
+
+
+/* Header */
+
+.header-menu {
+    width: 1170px;
+    margin: 0 auto;
+}
 
 .logo-web {
     color: var(--color-link);
@@ -110,10 +133,13 @@ address {
     color: var(--color-link);
 }
 
+
+/* Hero section */
+
 .hero-section {
     background-color:#2F303A;
-    width: 1600px;
-    height: 600px;
+    width: 100%;
+    margin-bottom: 94px;
 }
 
 .hero-title {
@@ -124,6 +150,8 @@ address {
     font-weight: 900;
     line-height: 1.363;
     letter-spacing: 0.06em;
+    padding: 200px 0 0 0;
+    margin: 0 auto 30px;
 }
 
 .hero-button {
@@ -135,6 +163,8 @@ address {
     font-weight: 700;
     line-height: 1.875;
     letter-spacing: 0.06em;
+    padding: 10px 32px;
+    margin-bottom: 200px;
 }
 
 .hero-button:hover {
@@ -144,18 +174,35 @@ address {
     cursor: pointer;
 }
 
+
+/* Features section */
+
+/* .content-features-list {
+    list-style: none;
+    padding: 0 215px;
+} */
+
 .content-header-features {
     color: var(--color-text);
     font-size: 14px;
     line-height: 1.142;
     letter-spacing: 0.03em;
+    margin-bottom: 10px;
 }
 
-.content-features {
+.content-features-text {
     color: var(--color-grey);
     font-size: 14px;
     line-height: 1.714;
     letter-spacing: 0.03em;
+    margin-bottom: 94px;
+}
+
+
+/* Services section */
+
+.services {
+    padding: 0 215px 94px 215px;
 }
 
 .content-header-services {
@@ -164,6 +211,19 @@ address {
     line-height: 1.167;
     text-align: center;
     letter-spacing: 0.03em;
+    margin-bottom: 50px;
+}
+
+.content-img-services {
+    margin-bottom: 30px;
+}
+
+
+/* Team section */
+
+.team {
+    background-color: #F5F4FA;
+    padding: 94px 215px 30px 215px;
 }
 
 .content-header-team {
@@ -172,10 +232,11 @@ address {
     line-height: 1.167;
     text-align: center;
     letter-spacing: 0.03em;
+    margin-bottom: 50px;
 }
 
-.team {
-    background-color: #F5F4FA;
+.content-img-team {
+    margin-bottom: 30px;
 }
 
 .content-team-name {
@@ -185,6 +246,7 @@ address {
     line-height: 1.188;
     text-align: center;
     letter-spacing: 0.03em;
+    margin-bottom: 10px;
 }
 
 .content-team-position {
@@ -193,12 +255,16 @@ address {
     line-height: 1.188;
     text-align: center;
     letter-spacing: 0.03em;
+    margin-bottom: 30px;
 }
+
+
+/* Footer section */
 
 .footer {
     background-color: #2F303A;
     width: 1600px;
-    padding: 10px;
+    padding: 60px 0;
 }
 
 a {
@@ -232,6 +298,7 @@ a {
     color: var(--color-link);
     cursor: pointer;
 }
+
 
 
 /* Portfolio page */
